@@ -11,7 +11,7 @@ const main = document.getElementsByTagName('main')[0];
 
 // News API Data
 const API_DOMAIN = "https://newsapi.org/v2/top-headlines"
-const API_KEY = "cd45ba31a79643279ed00e0353545c72"
+const API_KEY = "yourapykey"
 const endpointPath = (category, page) =>
     `${API_DOMAIN}?country=us&category=${category}&apiKey=${API_KEY}&page=${page}`;
 
